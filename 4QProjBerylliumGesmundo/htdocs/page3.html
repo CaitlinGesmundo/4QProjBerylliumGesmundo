@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CS3 Q4 Project</title>
+
+	<meta charset="UTF-8">
+	<meta name="author" content="GESMUNDO, Mary Caitlin S.">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="revised" content="12-05-2022">
+	<meta name="description" content="CS3 Q4 Project">
+
+	<!--- <link rel="icon" href="images/icon.png" type="image/gif"> --->
+	<link rel="stylesheet" href="../css/stylesheet.css">
+
+</head>
+
+<body>
+
+<div id="results">
+	name results
+</div>
+
+<div id="rank">
+	Rank and Time
+</div>
+
+<br>
+<a href="../index.html">Take Again?</a>
+
+<script>
+	if (typeof(Storage) !== "undefined") {
+		document.getElementById("results").innerHTML = localStorage.getItem("name") + ", your score is: " + localStorage.getItem("score");
+	} else {
+		document.getElementById("results").innerHTML = "Browser does not support Web Storage.";
+	}
+	
+	if (typeof(Storage) !== "undefined") {
+		document.getElementById("rank").innerHTML = "You " + localStorage.getItem("pass") + "! " + localStorage.getItem("pass2");
+	} else {
+		document.getElementById("rank").innerHTML = "Browser does not support Web Storage.";
+	}
+</script>
+
+</body>
+</html>

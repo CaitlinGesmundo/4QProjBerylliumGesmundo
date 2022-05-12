@@ -1,0 +1,61 @@
+body {
+	font-family:Verdana;
+	background-color:#E5E4E2;
+}
+
+a:link, a:visited {
+	background-color:#98AFC7;
+	color:black;
+	text-align:center;
+	text-decoration:none;
+	padding:5px;
+	margin:2px;
+}
+
+a:hover, a:active {
+	background-color:#C7B097;
+}
+
+#subButton {
+	font-family:Verdana;
+	background-color:#98AFC7;
+	color:black;
+	text-align:center;
+	text-decoration:none;
+	padding:5px;
+	margin:2px;
+	border: none;
+	font-size:15px;
+}
+
+#subButton:hover, #subButton:active {
+	background-color:#C7B097;
+}
+
+ul {
+	list-style-type:square;
+}
+
+#infoDiv {
+	width:auto;
+	border:2px solid gray; 
+	padding:10px;
+	margin:2px;
+	overflow:auto;
+}
+
+#results {
+	width:auto;
+	border:2px solid gray; 
+	padding:10px;
+	margin:2px;
+	overflow:auto;
+}
+
+#rank {
+	width:auto;
+	border:2px solid gray; 
+	padding:10px;
+	margin:2px;
+	overflow:auto;
+}
